@@ -1,6 +1,6 @@
 #IntegerComplement
 #binary complement means transpose 0's and 1's. e.g. ("101" complement is "010")
-#Take a binary number N (N = 101001) and convert that number to its binary complement #(010110) and then find decimal comlement of the original binary
+
 
 def IntegerComplement(n)
 
