@@ -1,6 +1,10 @@
 #IntegerComplement
 #binary complement means transpose 0's and 1's. e.g. ("101" complement is "010")
 
+#take n and convert it to binary
+#take binary find its complement in binary form
+#take binary complement and convert it to new decimal
+
 
 def IntegerComplement(n)
 
@@ -28,9 +32,6 @@ def IntegerComplement(n)
   comps                                                                      # => [1, 0, 4, 8, 0, 0]
   decimal_complement = comps.reduce(:+)                                      # => 13
 
-  #take n and convert it to binary
-  #take binary find complement in binary form
-  #take complement and convert it back to decimal
 
   p new_decimal         # => 13
   p decimal_complement  # => 13
